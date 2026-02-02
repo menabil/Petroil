@@ -15,6 +15,7 @@
     --text-xl: 1.25rem;
     --text-xl--line-height: calc(1.75 / 1.25);
     --font-weight-semibold: 600;
+    --font-weight-bold: 700;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
     --font-Pop: "Poppins", sans-serif;
@@ -193,11 +194,26 @@
   .mr-\[72px\] {
     margin-right: 72px;
   }
+  .mb-7 {
+    margin-bottom: calc(var(--spacing) * 7);
+  }
+  .mb-7\.5 {
+    margin-bottom: calc(var(--spacing) * 7.5);
+  }
   .flex {
     display: flex;
   }
   .table {
     display: table;
+  }
+  .w-210 {
+    width: calc(var(--spacing) * 210);
+  }
+  .w-210\.5 {
+    width: calc(var(--spacing) * 210.5);
+  }
+  .w-\[842px\] {
+    width: 842px;
   }
   .w-fit {
     width: fit-content;
@@ -272,8 +288,47 @@
   .bg-\[\#FFB800\] {
     background-color: #FFB800;
   }
+  .bg-\[url\(\)\] {
+    background-image: url();
+  }
+  .bg-\[url\(\.\.\/images\/banner\.png\)\] {
+    background-image: url(../images/banner.png);
+  }
+  .bg-\[url\(\.\/\)\] {
+    background-image: url(./);
+  }
+  .bg-\[url\(\.\/images\/banner\.png\)\] {
+    background-image: url(./images/banner.png);
+  }
+  .bg-\[url\(\/\)\] {
+    background-image: url(/);
+  }
+  .bg-\[url\(\/im\)\] {
+    background-image: url(/im);
+  }
+  .bg-\[url\(\/images\/banner\.png\)\] {
+    background-image: url(/images/banner.png);
+  }
+  .bg-\[url\(\/img\/mountains\.jpg\)\] {
+    background-image: url(/img/mountains.jpg);
+  }
+  .bg-\[url\(images\)\] {
+    background-image: url(images);
+  }
+  .bg-\[url\(images\/\)\] {
+    background-image: url(images/);
+  }
+  .bg-\[url\(images\/banner\)\] {
+    background-image: url(images/banner);
+  }
+  .bg-\[url\(images\/banner\.png\)\] {
+    background-image: url(images/banner.png);
+  }
   .px-8 {
     padding-inline: calc(var(--spacing) * 8);
+  }
+  .px-10 {
+    padding-inline: calc(var(--spacing) * 10);
   }
   .py-0 {
     padding-block: calc(var(--spacing) * 0);
@@ -292,6 +347,12 @@
   }
   .py-7 {
     padding-block: calc(var(--spacing) * 7);
+  }
+  .py-65 {
+    padding-block: calc(var(--spacing) * 65);
+  }
+  .py-\[260px\] {
+    padding-block: 260px;
   }
   .pr-6 {
     padding-right: calc(var(--spacing) * 6);
@@ -312,6 +373,13 @@
   }
   .text-\[12px\] {
     font-size: 12px;
+  }
+  .text-\[64px\] {
+    font-size: 64px;
+  }
+  .font-bold {
+    --tw-font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-bold);
   }
   .font-semibold {
     --tw-font-weight: var(--font-weight-semibold);
