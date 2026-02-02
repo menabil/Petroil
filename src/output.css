@@ -261,6 +261,9 @@
   .h-\[360px\] {
     height: 360px;
   }
+  .h-\[450px\] {
+    height: 450px;
+  }
   .w-1 {
     width: calc(var(--spacing) * 1);
   }
@@ -408,6 +411,9 @@
   .gap-x-7\.5 {
     column-gap: calc(var(--spacing) * 7.5);
   }
+  .gap-x-10 {
+    column-gap: calc(var(--spacing) * 10);
+  }
   .gap-x-12 {
     column-gap: calc(var(--spacing) * 12);
   }
@@ -419,6 +425,12 @@
   }
   .gap-x-18 {
     column-gap: calc(var(--spacing) * 18);
+  }
+  .gap-x-20 {
+    column-gap: calc(var(--spacing) * 20);
+  }
+  .gap-x-40 {
+    column-gap: calc(var(--spacing) * 40);
   }
   .gap-x-44 {
     column-gap: calc(var(--spacing) * 44);
@@ -504,6 +516,9 @@
   }
   .bg-\[url\(\.\.\/images\/learn\.png\)\] {
     background-image: url(../images/learn.png);
+  }
+  .bg-\[url\(\.\.\/images\/map\.png\)\] {
+    background-image: url(../images/map.png);
   }
   .bg-\[url\(\.\.\/images\/s\.png\)\] {
     background-image: url(../images/s.png);
@@ -630,6 +645,12 @@
   }
   .py-7 {
     padding-block: calc(var(--spacing) * 7);
+  }
+  .py-11 {
+    padding-block: calc(var(--spacing) * 11);
+  }
+  .py-11\.5 {
+    padding-block: calc(var(--spacing) * 11.5);
   }
   .py-23 {
     padding-block: calc(var(--spacing) * 23);
