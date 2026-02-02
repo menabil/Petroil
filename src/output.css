@@ -193,9 +193,16 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .border-r {
+    border-right-style: var(--tw-border-style);
+    border-right-width: 1px;
+  }
   .border-b {
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 1px;
+  }
+  .border-\[\#5C6A92\] {
+    border-color: #5C6A92;
   }
   .border-black {
     border-color: var(--color-black);
@@ -223,6 +230,9 @@
   }
   .py-\[1px\] {
     padding-block: 1px;
+  }
+  .pr-6 {
+    padding-right: calc(var(--spacing) * 6);
   }
   .underline {
     text-decoration-line: underline;
