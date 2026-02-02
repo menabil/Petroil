@@ -180,15 +180,6 @@
       max-width: 96rem;
     }
   }
-  .table {
-    display: table;
-  }
-  .border-collapse {
-    border-collapse: collapse;
-  }
-  .resize {
-    resize: both;
-  }
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
@@ -197,18 +188,11 @@
     border-right-style: var(--tw-border-style);
     border-right-width: 1px;
   }
-  .border-b {
-    border-bottom-style: var(--tw-border-style);
-    border-bottom-width: 1px;
-  }
   .border-\[\#5C6A92\] {
     border-color: #5C6A92;
   }
   .border-black {
     border-color: var(--color-black);
-  }
-  .bg-\[\#\#\] {
-    background-color: ##;
   }
   .bg-\[\#282828\] {
     background-color: #282828;
@@ -216,30 +200,14 @@
   .bg-\[\#FFB800\] {
     background-color: #FFB800;
   }
-  .bg-\[\#\] {
-    background-color: #;
-  }
-  .py-0 {
-    padding-block: calc(var(--spacing) * 0);
-  }
   .py-0\.5 {
     padding-block: calc(var(--spacing) * 0.5);
   }
   .py-4 {
     padding-block: calc(var(--spacing) * 4);
   }
-  .py-\[1px\] {
-    padding-block: 1px;
-  }
   .pr-6 {
     padding-right: calc(var(--spacing) * 6);
-  }
-  .underline {
-    text-decoration-line: underline;
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
   }
 }
 .container {
@@ -251,16 +219,10 @@
   inherits: false;
   initial-value: solid;
 }
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
       --tw-border-style: solid;
-      --tw-outline-style: solid;
     }
   }
 }
